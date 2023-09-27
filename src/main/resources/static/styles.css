@@ -26,8 +26,13 @@ h1 {
 
 h2 {
     font-size: 30px;
+    padding: 35px 35px 0 35px;
 }
 
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
 
 
 /* menu */
@@ -71,7 +76,7 @@ nav {
 
 .obsah {
     margin: auto;
-    padding: 35px;
+    padding: 40px;
     max-width: 960px;
 }
 
@@ -84,9 +89,9 @@ nav {
 
 .eliska {
     float: right;
-    margin:60px;
-    width: 30%;
-    max-width: 200px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    width: 15%;
     height: auto;
     border: 2px solid white;
     border-radius: 50%;
@@ -98,7 +103,7 @@ nav {
 }
 
 /* galerie */
-.galerie {
+.fotogalerie {
     background: rgba(27, 164, 135, 0.42);
 }
 
@@ -121,14 +126,6 @@ nav {
 .kontakt {
     background: rgba(27, 164, 135, 0.62);
 }
-
-.ikony {
-    display: -moz-inline-box;
-    width: 10px;
-    height: 10px;
-}
-
-
 
 /* footer */
 footer {
